@@ -1,5 +1,5 @@
 import pytest
-from equation_solver import Equation, Node, EquationSolver
+from equation_solver import Equation, EquationSolver
 def test_equation01():
     eq = EquationSolver("x = 0")
     assert eq.solve() == 0
